@@ -1,12 +1,12 @@
 <template>
-    <section class="baner center">
-       <div class="baner__wrap">
-          <div class="baner__wrap-content">
-             <h1 class="baner__title">Let Your Home Be Unique</h1>
-             <p class="baner__text">There are many variations of the passages of
+    <section class="banner center">
+       <div class="banner__wrap">
+          <div class="banner__wrap-content">
+             <h1 class="banner__title">Let Your Home Be Unique</h1>
+             <p class="banner__text">There are many variations of the passages of
                 lorem Ipsum fromavailable, majority.</p>
-             <a href="#" class="baner__button">
-                <div class="baner__button-text">
+             <a href="#" class="banner__button">
+                <div class="banner__button-text">
                    <p>Get Started</p>
                    <img src="../../../assets/images/row_left.svg" alt="row_left">
                 </div>
@@ -18,7 +18,7 @@
  
  <script>
  export default {
-   name: 'HomePageBaner',
+   name: 'HomePageBanner',
  
    data () {
      return {
@@ -40,7 +40,7 @@
  $font-400: 400;
  $familyTitle: "DM Serif Display";
  $familyText: "Jost";
- .baner {
+ .banner {
     &__wrap {
        height: 758px;
        background-image: url("../../../assets/images/Header_Photo.jpg");
